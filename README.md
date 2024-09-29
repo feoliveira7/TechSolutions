@@ -1,17 +1,4 @@
 Link do site:
 https://feoliveira7.github.io/TechSolutions/index.html
 
-Lista de CPFs valídos para teste:
-123.456.789-01
-234.567.890-12
-345.678.901-23
-456.789.012-34
-567.890.123-45
-678.901.234-56
-789.012.345-67
-890.123.456-78
-901.234.567-89
-012.345.678-90
-135.792.468-01
-246.813.579-02
-378.413.728-84
+Lista de CPFs valídos para teste: https://raw.githubusercontent.com/feoliveira7/APIs-RAW/refs/heads/main/Lista.txt
