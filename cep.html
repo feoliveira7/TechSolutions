@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APIs - CEP</title>
+    <link rel="stylesheet" href="cep.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="fundoTitulo">
+        <div class="fundoHomeButton" onclick="location.href='index.html'"><img class="homeButtonIMG" src="img/left-arrow.png" alt=""> </div> <h1 class="titulo1">CONSUMOS DE APIs</h1>
+    </div>
+
+    <div class="divCentral">
+        <div class="fundoInputs">
+
+            <div class="divtitulo">
+                <img class="imgCEP" src="img/localizacao (1).png" alt=""> <h1 class="tituloCEP">Consultar CEP</h1>
+            </div>
+            
+            <label for="" class="label1">Digite o CEP</label>
+            <input type="text" id="cep" class="input1">
+           
+            <div class="divRuaN1">
+                <label for="" class="label2">Rua</label>
+                <label for="" class="label3">Número</label>
+            </div>
+
+            <div class="divRuaN2">
+                <input type="text" readonly id="rua" class="input2">
+                <input type="text" id="numero" class="input3">
+            </div>
+            
+            
+            <label for="" class="label4">Bairro</label>
+            <input type="text" readonly id="bairro" class="input4">
+            
+            <label for="" class="label5">Cidade</label>
+            <input type="text" readonly id="cidade" class="input4">
+            
+            <label for="" class="label5">Estado</label>
+            <input type="text" readonly id="estado" class="input4">
+            </div>
+    </div>
+        
+
+<script src="cep.js"></script>
+</body>
+
+</html>

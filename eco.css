@@ -1,0 +1,167 @@
+body{
+    background-color: rgb(236, 236, 236);
+    overflow-x: hidden;
+
+}
+
+.fundoTitulo{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100vw;
+    height: 50px;
+    margin-top: -8px;
+    margin-left: -8px;
+    background-color: rgb(255, 255, 255);
+ 
+}
+
+.fundoHomeButton{
+    display: flex;
+    align-items: center;
+    width: 70px;
+    height: 50px;
+    background-color: rgb(22, 22, 22);
+    clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
+    cursor: pointer;
+}
+
+.homeButtonIMG{
+    margin-left: 10px;
+    width: 35px;
+    height: 35px;
+}
+
+.titulo1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-family: Poppins;
+    margin-left: 10px;
+    font-size: 22px;
+    color: rgb(17, 17, 17);
+    
+}
+.centerTitulo{
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+}
+.titulo{
+    font-family: Poppins;
+    margin-top: 40px;
+    width: 1080px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 20px rgba(17, 17, 17, 0.267);
+    border-radius: 9px;
+    font-weight: 550;
+    display: flex;
+    justify-content: center;
+}
+
+.geral{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.fundoProduto1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 310px;
+    height: 475px;
+    border-radius: 15px;
+    margin-right: 45px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 20px rgba(17, 17, 17, 0.267);
+}
+
+.fundoProduto3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 310px;
+    height: 475px;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 20px rgba(17, 17, 17, 0.267);
+}
+
+.fundoGeral{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 440px;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgba(77, 77, 77, 0.334);
+}
+
+
+.img1{
+    margin-top: 40px;
+    border-radius: 20px;
+}
+
+#marca1,
+#marca2,
+#marca3{
+    margin-top: 15px;
+    font-family: Poppins;
+    color: black;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+#modelo1,
+#modelo2,
+#modelo3{
+    margin-top: -4px;
+    font-family: Poppins;
+    color: black;
+    font-weight: 500;
+    font-size: 19px;
+}
+
+#cor1,
+#cor2,
+#cor3{
+    font-family: Poppins;
+    color: black;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+#preco1,
+#preco2,
+#preco3{
+    margin-top: 5px;
+    font-family: Poppins;
+    color: black;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.btn1{
+    margin-top: 15px;
+    border-radius: 10px;
+    width: 240px;
+    height: 40px;
+    border: none;
+    background-color: rgb(23, 23, 23);
+    color: white;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 20px;
+    opacity: 60%;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+
+.btn1:hover{
+    opacity: 100%;
+}

@@ -1,0 +1,55 @@
+{
+    "nomeArt1": "Matuê",
+    "foto1": "<img class='fotoArtista' src='img/Matue.png'>",
+    "nome1": "Matheus Brasileiro de Aguiar",
+    "nascimento1": "11 de Outubro de 1993 (30 anos)",
+    "localNascimento1": "<img class='imgLocalizacao' src='img/localizacao (1).png'> Fortaleza, CE - Brasil",
+    "genero1": "<strong>Gênero: </strong> Trap",
+    "ultimoLan1": "<strong>Último lançamento: </strong> 333 (Álbum)",
+
+    "nomeArt2": "MC IG",
+    "foto2": "<img class='fotoArtista' src='img/mcIG.png'>",
+    "nome2": "Guilherme Sérgio Ramos de Souza",
+    "nascimento2": "12 de Maio de 1997 (27 anos)",
+    "localNascimento2": "<img class='imgLocalizacao' src='img/localizacao (1).png'> São Paulo, SP - Brasil",
+    "genero2": "<strong>Gênero: </strong> Funk Paulista",
+    "ultimoLan2": "<strong>Último lançamento: </strong> Amanhecer (Single)",
+
+
+    "nomeArt3": "MC Ryan SP",
+    "foto3": "<img class='fotoArtista' src='img/McRyan.png'>",
+    "nome3": "Ryan Santana dos Santos",
+    "nascimento3": "2 de Fevereiro de 2001 (23 anos)",
+    "localNascimento3": "<img class='imgLocalizacao' src='img/localizacao (1).png'> São Paulo, SP - Brasil",
+    "genero3": "<strong>Gênero: </strong> Funk Paulista",
+    "ultimoLan3": "<strong>Último lançamento: </strong> 365 Dias (Feat)",
+
+
+    "nomeArt4": "Veigh",
+    "foto4": "<img class='fotoArtista' src='img/Veigh.png'>",
+    "nome4": "Thiago Veigh da Silva",
+    "nascimento4": "12 de Setembro de 2001 (23 anos)",
+    "localNascimento4": "<img class='imgLocalizacao' src='img/localizacao (1).png'> Itapevi, SP - Brasil",
+    "genero4": "<strong>Gênero: </strong> Trap",
+    "ultimoLan4": "<strong>Último lançamento: </strong> Os menino da nova (Single)",
+
+
+    "nomeArt5": "Luan Pereira",
+    "foto5": "<img class='fotoArtista' src='img/LuanPereira.png'>",
+    "nome5": "Luan Pereira",
+    "nascimento5": "18 de Agosto de 2003 (21 anos)",
+    "localNascimento5": "<img class='imgLocalizacao' src='img/localizacao (1).png'> Suzano, SP - Brasil",
+    "genero5": "<strong>Gênero: </strong> Sertanejo",
+    "ultimoLan5": "<strong>Último lançamento: </strong> Saveiro (Single)",
+
+
+    "nomeArt6": "Ana Castela",
+    "foto6": "<img class='fotoArtista' src='img/AnaCastela.png'>",
+    "nome6": "Ana Flávia Castela",
+    "nascimento6": "16 de Novembro de 2003 (20 anos)",
+    "localNascimento6": "<img class='imgLocalizacao' src='img/localizacao (1).png'> Amambaí, MS - Brasil",
+    "genero6": "<strong>Gênero: </strong> Sertanejo",
+    "ultimoLan6": "<strong>Último lançamento: </strong> Depois do Rodeio (Single)"
+
+
+}

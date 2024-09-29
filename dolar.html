@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang=
+"en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta http-equiv="refresh" content="10"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dólar</title>
+    <link rel="stylesheet" href="dolar.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+
+    <div class="fundoTitulo">
+        <div class="fundoHomeButton" onclick="location.href='index.html'"><img class="homeButtonIMG" src="img/left-arrow.png" alt=""> </div> <h1 class="titulo1">CONSUMOS DE APIs</h1>
+    </div>
+    
+    <div class="Central">
+        <div class="fundoDolar" id="frameDolar">
+
+            <div class="nameDolar">
+               <img class="dolarIMG" src="img/financa (1).png" alt=""> <h1 class="titulo">Dólar</h1>
+            </div>
+            
+    
+            <label for="" class="label1">Valor do Dólar:</label>
+            <p id="valorDolar"></p>
+
+            <label for="" class="label2">Maior valor no dia:</label>
+            <p id="maiorDolar"></p>
+
+            <label for="" class="label3">Menor valor do dia:</label>
+            <p id="menorDolar"></p>
+
+            <button class="btnConvert" id="btnConverter" onclick="converterFrame()">Converter <img class="imgConvert" src="img/two-arrows.png" alt=""></button>
+
+        </div>
+    </div>
+
+    <div class="Central2">
+        <div class="fundoConvert" id="frameConverter">
+
+            <div class="nameDolar">
+               <img class="convertIMG" src="img/two-arrows.png" alt=""> <h1 class="titulo2">Conversão</h1>
+            </div>
+            
+    
+            <label for="" class="labelReal">Valor em Reais:</label>
+            <input id="inputReal" type="text" maxlength="12">
+
+            <label for="" class="labelDolar">Valor em Dólares</label>
+            <p id="inputResultado"></p>
+
+            <button class="enterConvert" onclick="convert()">Converter</button>
+
+            <button class="btnReturn" id="btnVoltar" onclick="voltarFrame()"><img class="imgReturn" src="img/left-arrow2.png" alt=""> Voltar</button>
+
+        </div>
+    </div>
+
+    <script src="dolar.js"></script>
+    <script src="convert.js"></script>
+
+</body>
+</html>

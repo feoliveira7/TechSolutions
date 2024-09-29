@@ -1,0 +1,132 @@
+[
+    {
+        "id": 1,
+        "cpf": "123.456.789-01",
+        "nome": "João Silva",
+        "cidade": "São Paulo",
+        "nascimento": "15/05/1990",
+        "idade": 34,
+        "genero": "Masculino",
+        "situacao": "Regular"
+    },
+    {
+        "id": 2,
+        "cpf": "234.567.890-12",
+        "nome": "Maria Oliveira",
+        "cidade": "Rio de Janeiro",
+        "nascimento": "20/09/1985",
+        "idade": 38,
+        "genero": "Feminino",
+        "situacao": "Pendente"
+    },
+    {
+        "id": 3,
+        "cpf": "345.678.901-23",
+        "nome": "Carlos Pereira",
+        "cidade": "Belo Horizonte",
+        "nascimento": "10/02/1995",
+        "idade": 29,
+        "genero": "Masculino",
+        "situacao": "Cancelado"
+    },
+    {
+        "id": 4,
+        "cpf": "456.789.012-34",
+        "nome": "Ana Costa",
+        "cidade": "Salvador",
+        "nascimento": "30/11/1992",
+        "idade": 31,
+        "genero": "Feminino",
+        "situacao": "Regular"
+    },
+    {
+        "id": 5,
+        "cpf": "567.890.123-45",
+        "nome": "Lucas Santos",
+        "cidade": "Curitiba",
+        "nascimento": "05/04/1988",
+        "idade": 36,
+        "genero": "Masculino",
+        "situacao": "Pendente"
+    },
+    {
+        "id": 6,
+        "cpf": "678.901.234-56",
+        "nome": "Fernanda Lima",
+        "cidade": "Porto Alegre",
+        "nascimento": "25/08/1994",
+        "idade": 29,
+        "genero": "Feminino",
+        "situacao": "Regular"
+    },
+    {
+        "id": 7,
+        "cpf": "789.012.345-67",
+        "nome": "Felipe Almeida",
+        "cidade": "Brasília",
+        "nascimento": "12/01/1991",
+        "idade": 33,
+        "genero": "Masculino",
+        "situacao": "Cancelado"
+    },
+    {
+        "id": 8,
+        "cpf": "890.123.456-78",
+        "nome": "Juliana Rocha",
+        "cidade": "Manaus",
+        "nascimento": "18/06/1987",
+        "idade": 36,
+        "genero": "Feminino",
+        "situacao": "Pendente"
+    },
+    {
+        "id": 9,
+        "cpf": "901.234.567-89",
+        "nome": "André Gomes",
+        "cidade": "Fortaleza",
+        "nascimento": "22/03/1993",
+        "idade": 31,
+        "genero": "Masculino",
+        "situacao": "Regular"
+    },
+    {
+        "id": 10,
+        "cpf": "012.345.678-90",
+        "nome": "Camila Martins",
+        "cidade": "Recife",
+        "nascimento": "03/10/1989",
+        "idade": 34,
+        "genero": "Feminino",
+        "situacao": "Cancelado"
+    },
+    {
+        "id": 11,
+        "cpf": "135.792.468-01",
+        "nome": "Bruna Ferreira",
+        "cidade": "Campinas",
+        "nascimento": "08/07/1990",
+        "idade": 34,
+        "genero": "Feminino",
+        "situacao": "Regular"
+    },
+    {
+        "id": 12,
+        "cpf": "246.813.579-02",
+        "nome": "Thiago Martins",
+        "cidade": "São Luís",
+        "nascimento": "11/02/1992",
+        "idade": 32,
+        "genero": "Masculino",
+        "situacao": "Regular"
+    },
+    {
+        "id": 13,
+        "cpf": "378.413.728-84",
+        "nome": "Carlos Eduardo",
+        "cidade": "São Paulo",
+        "nascimento": "14/01/2001",
+        "idade": 23,
+        "genero": "Masculino",
+        "situacao": "Pendente"
+    }
+]

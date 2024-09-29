@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CPF</title>
+    <link rel="stylesheet" href="cpf.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+
+    <div class="fundoTitulo">
+        <div class="fundoHomeButton" onclick="location.href='index.html'"><img class="homeButtonIMG" src="img/left-arrow.png" alt=""> </div> <h1 class="titulo1">CONSUMOS DE APIs</h1>
+    </div>
+    
+    <div class="central">
+
+        <div class="fundoPesquisa">
+
+            <div class="titleAPI">
+                <img class="imgTitle" src="img/pesquisa-de-lupa.png" alt=""><h1 class="title1">Buscar CPF</h1>
+            </div>
+            
+            <p class="title2">Digite o número do CPF:</p>
+            <input type="text" placeholder="Ex: 000.000.000-00" maxlength="14" id="cpfInput" class="input1">
+            <button onclick="buscarCPF()" class="button1" id="botaoBuscar">Pesquisar</button>
+
+            <p class="erro" id="txtErrado">CPF Invalído</p>
+
+        </div>
+
+    </div>
+
+    <div class="central2">
+        
+        <div class="fundoResultado">
+            <div class="tituloResultado">
+                <img class="imgPessoa" src="img/pessoa.png" alt="">  <p class="titulo3" id="cpfTitle">Dados da pessoa:</p>
+            </div>
+
+            <div class="divInfos">
+                <p class="txtDisplay">Nome: </p> <p class="txtRAW" id="nome">---</p>
+            </div>
+
+            <div class="divInfos2">
+                <p class="txtDisplay">Localidade: </p> <p class="txtRAW" id="cidade">---</p>
+            </div>
+
+            <div class="divInfos2">
+                <p class="txtDisplay">Data de nascimento: </p> <p class="txtRAW" id="nascimento">---</p>
+            </div>
+
+            <div class="divInfos2">
+                <p class="txtDisplay">Idade: </p> <p class="txtRAW" id="idade">---</p>
+            </div>
+
+            <div class="divInfos2">
+                <p class="txtDisplay">Genêro: </p> <p class="txtRAW" id="genero">---</p>
+            </div>
+
+            <div class="line1"></div>
+
+            <p class="txtDisplay2">Situação do CPF</p> 
+                <p class="txtRAW2" id="situacao">---</p>
+         
+
+
+
+                
+        </div>
+    </div>
+
+
+    <script src="cpf.js"></script>
+</body>
+</html>

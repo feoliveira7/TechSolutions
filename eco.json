@@ -1,0 +1,20 @@
+{
+    "marca1": "Nike",
+    "modelo1": "Air Jordan 1 High OG",
+    "preco1": "R$1.599,00",
+    "cor1": "Midnight Navy",
+    "imagem1": "<img src='img/jordan1mid.PNG' class='img1' width='250px'>",
+
+    "marca2": "Nike",
+    "modelo2": "Air Jordan 4 Retro",
+    "preco2": "R$1.799,00",
+    "cor2": "Industrial Blue",
+    "imagem2": "<img src='img/jordan4.PNG'class='img1' width='230px'>",
+
+    "marca3": "Nike",
+    "modelo3": "Air Jordan 1 High OG",
+    "preco3": "R$1.599,99",
+    "cor3": "Latte",
+    "imagem3": "<img src='img/jordan1.PNG'class='img1' width='240px'>"
+    
+}

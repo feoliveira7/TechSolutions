@@ -1,0 +1,211 @@
+body{
+    background-color: rgb(236, 236, 236);
+    overflow-x: hidden;
+
+}
+.fundoTitulo{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100vw;
+    height: 50px;
+    margin-top: -8px;
+    margin-left: -8px;
+    background-color: rgb(255, 255, 255);
+ 
+}
+
+.fundoHomeButton{
+    display: flex;
+    align-items: center;
+    width: 70px;
+    height: 50px;
+    background-color: rgb(22, 22, 22);
+    clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
+    cursor: pointer;
+}
+
+.homeButtonIMG{
+    margin-left: 10px;
+    width: 35px;
+    height: 35px;
+}
+
+.titulo1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-family: Poppins;
+    margin-left: 10px;
+    font-size: 22px;
+    color: rgb(17, 17, 17);
+    
+}
+
+.central{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.central2{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.fundoPesquisa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    height: 235px;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 20px rgba(17, 17, 17, 0.267);
+}
+
+.fundoResultado{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    height: 380px;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 20px rgba(17, 17, 17, 0.267);
+}
+
+.titleAPI{
+    display: flex;
+    align-items: center;
+}
+
+.imgTitle{
+    width: 35px;
+    height: 35px;
+    margin-right: 8px;
+}
+
+.title1{
+    font-family: Poppins;
+    margin-top: 15px;
+    color: rgb(22, 22, 22);
+    font-size: 25px;
+}
+
+.title2{
+    font-family: Poppins;
+    color: rgb(22, 22, 22);
+    font-size: 17px;
+    font-weight: 550;
+}
+
+.input1{
+    margin-top: -10px;
+    text-align: center;
+    width: 270px;
+    height: 30px;
+    border: none;
+    border-radius: 8px;
+    border: 2px solid rgb(230, 230, 230);
+    outline-color: rgb(177, 177, 177);
+    font-family: Poppins;
+    font-weight: 550;
+    font-size: 18px;
+    color: rgb(53, 53, 53);
+}
+
+.button1{
+    margin-top: 12px;
+    width: 200px;
+    height: 35px;
+    background-color: rgb(22, 22, 22);
+    font-family: Poppins;
+    border: none;
+    border-radius: 8px;
+    font-weight: 530;
+    font-size: 18px;
+    color: rgb(231, 231, 231);
+    cursor: pointer;
+    opacity: 90%;
+    transition: 0.3s;
+}
+
+.button1:hover{
+    opacity: 100%;
+}
+
+.erro{
+    margin-top: 8px;
+    font-family: Poppins;
+    font-weight: 600;
+    color: rgb(107, 0, 0);
+    opacity: 0%;
+    cursor: default;
+    transition: 0.3s;
+}
+
+.tituloResultado{
+    display: flex;
+    align-items: center;
+}
+
+.imgPessoa{
+    margin-left: -185px;
+    width: 23px;
+    height: 23px;
+}
+
+.titulo3{
+    margin-left: 8px;
+    font-family: Poppins;
+    font-weight: 450;
+    font-size: 16px;
+    color: rgb(22, 22, 22);
+}
+
+.divInfos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -0px;
+}
+
+.divInfos2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -30px;
+}
+
+.txtDisplay{
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.txtDisplay2{
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 18px;
+    margin-left: -165px;
+}
+
+.txtRAW{
+    font-family: Poppins;
+    font-size: 18px;
+    margin-left: 5px;
+}
+
+.txtRAW2{
+    font-family: Poppins;
+    font-size: 18px;
+    margin-top: -5px;
+}
+
+.line1{
+    width: 330px;
+    border-bottom: 2px solid rgb(204, 204, 204);
+}

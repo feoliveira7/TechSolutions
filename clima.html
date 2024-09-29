@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperatura</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="clima.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="fundoTitulo">
+        <div class="fundoHomeButton" onclick="location.href='index.html'"><img class="homeButtonIMG" src="img/left-arrow.png" alt=""> </div> <h1 class="titulo1">CONSUMOS DE APIs</h1>
+    </div>
+
+   <div class="Central">
+        <div class="fundoPesquisa">
+            <div class="titleAPI">
+                <img class="imgTitle" src="img/clima (1).png" alt=""><h1 class="title1">Temperatura</h1>
+            </div>
+            
+            <p class="title2">Digite o nome da cidade:</p>
+            <input type="text" placeholder="Nome da cidade" id="city" class="input1">
+            <button onclick="getWeather()" class="button1" id="botaoBuscar">Pesquisar</button>
+        </div>
+   </div>
+    
+    <div class="Central2">
+        <div class="fundoTemperatura">
+
+            <div class="nomeCidade">
+              <img class="imgCidade" src="img/localizacao (1).png" alt="">  <p class="nameCity" id="temperatura">-------</p>
+            </div>
+
+            <div class="tempFrame">            
+                    <img class="imgTemp" src="img/termometro.png" alt="" id="imagemTempo"> <p id="textoTemperatura" class="tempTXT">--</p>  <p id="textoCelsius" class="celsiusTXT">-</p>   
+            </div>
+
+        </div>
+
+    </div>
+    
+    
+
+    <script src="clima.js"></script>
+</body>
+</html>

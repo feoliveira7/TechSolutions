@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tema</title>
+    <link rel="stylesheet" href="tema.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+
+    <div class="fundoTitulo">
+        <div class="fundoHomeButton" onclick="location.href='index.html'"><img class="homeButtonIMG" src="img/left-arrow.png" alt=""> </div> <h1 class="titulo1">CONSUMOS DE APIs</h1>
+    </div>
+
+    <div class="Central1">
+
+        <div class="fundoGeral">
+
+            <div class="headerDivGeral">
+
+                <img src="img/spotify.png" class="imgLogoSpotify" alt=""> <h1 class="titleHeaderGeral">Top Artistas - Brasil</h1>
+
+            </div>
+
+            <div class="centralFrames">
+
+                <div class="frameSections">
+
+                    <div class="listFrame1" onclick="artista1()">
+    
+                        <p class="testeTXT">1</p> <img class="iconArrowFrame1" src="img/upArrow.png" alt=""> <p class="nameTxt1">Matuê</p>
+    
+                    </div>
+    
+                    <div class="listFrame1" onclick="artista2()">
+    
+                        <p class="testeTXT">2</p> <img class="iconArrowFrame4" src="img/downArrow.png" alt=""> <p class="nameTxt2">MC IG</p>
+    
+                    </div>
+    
+                    <div class="listFrame1" onclick="artista3()">
+    
+                        <p class="testeTXT">3</p> <p class="nameTxt3">MC Ryan SP</p>
+        
+                    </div>
+    
+                    <div class="listFrame1" onclick="artista4()">
+    
+                        <p class="testeTXT">4</p> <img class="iconArrowFrame4" src="img/downArrow.png" alt=""> <p class="nameTxt4">Veigh</p>
+    
+                    </div>
+    
+                    <div class="listFrame1" onclick="artista5()">
+    
+                        <p class="testeTXT">5</p> <p class="nameTxt5">Luan Pereira</p>
+    
+                    </div>
+    
+                    <div class="listFrame1" onclick="artista6()">
+    
+                        <p class="testeTXT">6</p> <img class="iconArrowFrame1" src="img/upArrow.png" alt=""> <p class="nameTxt6">Ana Castela</p>
+        
+                    </div>
+    
+                </div>
+    
+                <div class="frameArtist">
+                    <p id="nomeArtistico" class="nomeArtistico"></p>
+                    <p id="fotoArtistico" class="foto"></p>
+                    <p id="nomeArtista" class="nome"></p>
+                    <p id="nascimento" class="nascimento"></p>
+                    <p id="localNascimento" class="localNascimento"></p>
+                    <p id="genero" class="genero"></p>
+                    <p id="ultimoLancamento" class="ultimoLan"></p>
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <script src="spotify.js"></script>
+</body>
+</html>

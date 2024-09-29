@@ -1,0 +1,256 @@
+body{
+    background-color: rgb(236, 236, 236);
+    overflow-x: hidden;
+
+}
+.fundoTitulo{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100vw;
+    height: 50px;
+    margin-top: -8px;
+    margin-left: -8px;
+    background-color: rgb(255, 255, 255);
+ 
+}
+
+.fundoHomeButton{
+    display: flex;
+    align-items: center;
+    width: 70px;
+    height: 50px;
+    background-color: rgb(22, 22, 22);
+    clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
+    cursor: pointer;
+}
+
+.homeButtonIMG{
+    margin-left: 10px;
+    width: 35px;
+    height: 35px;
+}
+
+.titulo1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-family: Poppins;
+    margin-left: 10px;
+    font-size: 22px;
+    color: rgb(17, 17, 17);
+    
+}
+
+.Central1{
+
+    display: flex;
+    justify-content: center;
+}
+
+.fundoGeral{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 90px;
+    width: 1100px;
+    height: 700px;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 20px rgba(17, 17, 17, 0.267);
+}
+
+.headerDivGeral{
+    display: flex;
+    align-items: center;
+}
+
+.imgLogoSpotify{
+    margin-left: -425px;
+    width: 100px;
+    height: 100px;
+}
+
+.titleHeaderGeral{
+    margin-left: 15px;
+    font-family: Poppins;
+    font-size: 50px;
+    color: #181818;
+}
+
+.frameSections{
+    margin-top: 20px;
+    margin-left: -30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    height: 420px;
+}
+
+.listFrame1{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 10px;
+    width: 450px;
+    height: 60px;
+    background-color: rgb(236, 236, 236);
+    border-radius: 10px;
+    transition: 0.2s;
+    cursor: pointer;
+ 
+}
+
+.listFrame1:hover{
+    height: 65px;
+    width: 470px;
+    background-color: rgb(212, 212, 212);
+}
+
+.testeTXT{
+    margin-left: 20px;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 27px;
+}
+
+.nameTxt1{
+    margin-left: 125px;
+    font-family: Poppins;
+    font-weight: 550;
+    font-size: 27px;
+}
+
+.nameTxt2{
+    margin-left: 125px;
+    font-family: Poppins;
+    font-weight: 550;
+    font-size: 27px;
+}
+
+.nameTxt3{
+    margin-left: 120px;
+    font-family: Poppins;
+    font-weight: 550;
+    font-size: 27px;
+}
+
+.nameTxt4{
+    margin-left: 125px;
+    font-family: Poppins;
+    font-weight: 550;
+    font-size: 27px;
+}
+
+.nameTxt5{
+    margin-left: 115px;
+    font-family: Poppins;
+    font-weight: 550;
+    font-size: 27px;
+}
+
+.nameTxt6{
+    margin-left: 80px;
+    font-family: Poppins;
+    font-weight: 550;
+    font-size: 27px;
+}
+
+
+
+.iconArrowFrame1{
+    width: 25px;
+    height: 25px;
+    margin-left: 12px;
+}
+
+.iconArrowFrame2{
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+    transform: rotate(180deg);
+}
+
+
+.iconArrowFrame4{
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+    transform: rotate(180deg);
+}
+
+.frameArtist{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 60px;
+    width: 430px;
+    height: 520px;
+    background-color: rgb(236, 236, 236);
+    border-radius: 15px;
+}
+
+.centralFrames{
+    display: flex;
+    align-items: center;
+
+}
+
+.nomeArtistico{
+    font-family: Poppins;
+    font-weight: 650;
+    font-size: 30px;
+    color: black;
+}
+
+.fotoArtista{
+    margin-top: -20px;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+
+.nome{
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.nascimento{
+    margin-top: -15px;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.ultimoLan{
+    margin-top: -15px;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.localNascimento{
+    display: flex;
+    align-items: center;
+    margin-top: -15px;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.imgLocalizacao{
+    margin-right: 5px;
+    width: 20px;
+    height: 20px;
+}
+
+.genero{
+    margin-top: -15px;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 18px;
+}
